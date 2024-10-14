@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  scroll-behavior: smooth;
+}
+.vertical-timeline::before {
+  background-color: #474540;
+  width: 1px;
+}
+
+/* Optional: Change the dot/icon color to black */
+.vertical-timeline-element-icon {
+  background-color: white;
+}
